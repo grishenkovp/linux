@@ -19,7 +19,7 @@ for MONTH in {1..2}; do
   LOCAL_FILE="plan_${YEAR}_${FMONTH}.csv"
   LOCAL_PATH="${LOCAL_PREFIX}/${LOCAL_FILE}"
 
-  echo "donwloading ${URL} to ${LOCAL_PATH}"
+  echo "downloading ${URL} to ${LOCAL_PATH}"
   mkdir -p ${LOCAL_PREFIX}
   wget ${URL} -O ${LOCAL_PATH}
 
